@@ -1,0 +1,124 @@
+
+/* ----------------------------------------------------------------
+
+	footer.scss
+
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for footer. Thanks!
+-----------------------------------------------------------------*/
+
+#footer-top {
+	padding-top: 1.875rem;
+	font-size: 0.685rem;
+	padding-bottom: 1.875rem;
+	background-color: $bg-color-first;
+
+	.img-footer-right{
+		max-height: 375px;
+		width: 90%;
+		padding: 0;
+
+		@media (min-width: 992px){
+			padding-left: 5rem;
+		}
+	}
+	.footer-top-signup{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		@include media-breakpoint-up(lg) {
+			align-items: flex-start;
+		}
+	}
+	.signup-title p{
+		min-width: 240px;
+		line-height: 3.5rem;
+	}
+	.signup-button {
+		padding-bottom: 1.875rem;
+
+		button{
+			width: $spacer*7.5;
+		}
+	}
+}
+
+
+#footer-main {
+	background-color: $bg-color-second;
+	padding-bottom: 3rem;
+	@include media-breakpoint-up(lg) {
+		background: url(../images/footer.png) no-repeat center;
+		background-color: $bg-color-second;
+	}
+
+	.list-align{
+		display: flex;
+		justify-content: space-around;
+		padding: 0 0 1rem 0;
+		align-items: center;
+		@include media-breakpoint-up(sm){
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+	}
+	ul>li>a>span>i{
+		margin-right: $spacer;
+		font-size: $spacer*1.25;
+		width: $spacer*1.8;
+		text-align: center;
+		line-height: $initial;
+	}
+	
+	.social-icons {
+		li {
+			padding: 0 $spacer*0.25;
+
+			&:last-child {
+				padding-right: 0;
+			}
+	
+			a {
+				background-color: $bg-color-second;
+				color: $font-color-second;
+				line-height: $spacer*1.8125;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: $spacer*2.5;
+				height: $spacer*2.5;
+				border-radius: $spacer*0.5;
+				transition: all 0.3s ease-in-out;
+	
+				&:hover {
+					background-color: $theme-color;
+					color: $white;
+				}
+			}
+		}
+	}
+}
+
+#footer-bottom {
+	padding-top: 1.375rem;
+	padding-bottom: 1.375rem;
+	background-color: $bg-color-third;
+	border-width: 0;
+
+	span{
+		margin-left: 0.4rem;
+		margin-right: 0.4rem;
+		background-color: white;
+		border-radius: 10px;
+		img{
+			width: 100%;
+		}
+	}
+}
