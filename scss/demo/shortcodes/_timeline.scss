@@ -1,0 +1,25 @@
+.event {
+    position: relative;
+
+    .event-thumbnail {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .event-content {
+        padding: 1.25rem 0;
+
+        p {
+            line-height: 1.35;
+        }
+    }
+
+    .event-date {
+        font-family: $body-font;
+        font-size: 0.875rem;
+        color: $theme-color;
+        font-weight: 300;
+    }
+}

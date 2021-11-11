@@ -12,20 +12,16 @@
 
 //-------------------- Base Colors --------------------//
 
-$theme-color:                   #86bf3e;
-$body-color:                    #7d7b78;
-$heading-color:                 #4f4f4f;
-$third-color:                   #2e2e2e;
-$light:                         #f3eee8;
-
-$theme-color-first:             #86bf3e;
-$theme-color-second:            #fc4b4e;
-$theme-color-third:             #79cbe4;
+$theme-color:                  #86bf3e;
+$body-color:                   #282828;
+$heading-color:                #282828;
+$third-color:                  #2e2e2e;
+$light:                        #f7fafc;
 
 
 //-------------------- Font Families --------------------//
 
-$body-font:                     'Roboto Light', 'Sans Serif';
+$body-font:                     'Roboto', 'Sans Serif';
 $heading-font:                  'Knewave', 'Sans Serif';
 
 
@@ -35,44 +31,37 @@ $heading-font:                  'Knewave', 'Sans Serif';
 $primary:                       $theme-color;
 $secondary:                     $heading-color;
 
-// Spacer
-$spacer: 1rem !default;
-$spacers: (
-  0: 0,
-  1: $spacer / 4,
-  2: $spacer / 2,
-  3: $spacer,
-  4: $spacer * 1.25,
-  5: $spacer * 2,
-) !default;
 
 // Link
 $link-color:                    $heading-color;
-$link-decoration:				        none;
-$link-hover-color:				      $theme-color;
-
-// Border
-$border-radius:					        0.3125rem;
+$link-decoration:				none;
+$link-hover-color:				$theme-color;
 
 // Font sizes
 $font-size-base:                1rem;
 
-$h1-font-size:                	3.75rem;
-$h2-font-size:                	2.8rem;
-$h3-font-size:                	1.5rem;
-$h4-font-size:                	1.0625rem;
-$h5-font-size:                	$font-size-base*0.875;
-$h6-font-size:               	  0.75rem;
+$h1-font-size:                	5.375rem;
+$h2-font-size:                	3.75rem;
+$h3-font-size:                	3rem;
+$h4-font-size:                	1.5rem;
+$h5-font-size:                	1.125rem;
+$h6-font-size:               	0.875rem;
+
+// border//
+$border-radius:                 0.75rem;
+$border-radius-sm:              0.5rem;
+$border-radius-lg:              1rem;
+$border-radius-pill:            50rem;
 
 // Line Height
-$line-height-base:            	30 / 14;
+$line-height-base:            	1.5;
 $line-height-sm:              	30 / 16;
 $line-height-lg:              	30 / 12;
 
 // Buttons
-$btn-padding-y:              	  1.125rem;
-$btn-padding-x:              	  1.875rem;
-$btn-font-size:              	  0.75rem;
+$btn-padding-y:              	1.125rem;
+$btn-padding-x:              	1.875rem;
+$btn-font-size:              	0.75rem;
 
 $btn-padding-y-lg:              1.5rem;
 $btn-padding-x-lg:              2.5rem;
@@ -84,8 +73,8 @@ $btn-line-height:               1;
 // Forms
 $input-bg:                      transparent;
 $input-color:                   #828282;
-$input-border-color:            $theme-color-first;
-$input-border-width:			      0;
+$input-border-color:            $theme-color;
+$input-border-width:			0;
 $input-btn-focus-color-opacity: 1;
 
 $input-btn-padding-y:           0.8rem;
@@ -97,18 +86,20 @@ $input-btn-padding-x-lg:        2.5rem;
 $input-btn-font-size-lg:        0.875rem;
 
 $input-btn-line-height:         1.4;
+$input-font-weight:				300;
 
 $input-btn-focus-width:         1px;
-$input-focus-border-color:      $theme-color-first;
-$input-border-radius:           0.5rem;
+$input-focus-border-color:      $theme-color;
+$input-border-radius:           0.75rem;
+$input-placeholder-color:     #828282;
 
 
 //-------------------- Top Bar --------------------//
 
 $topbar-height:                 2.8125rem;
 $topbar-line-height:            2.75rem;
-$topbar-color:                  #adacac;
-$topbar-hover-color:            #7c7b7a;
+$topbar-color:                #adacac;
+$topbar-hover-color:          #7c7b7a;
 
 
 //-------------------- Header --------------------//
@@ -121,8 +112,8 @@ $sticky-header-height:          3.75rem;
 
 //-------------------- Primary Menu --------------------//
 
-$primary-menu-padding:					2.8125rem;
-$sticky-menu-padding:					  1.40625rem;
+$primary-menu-padding:			2.8125rem;
+$sticky-menu-padding:			1.40625rem;
 
 $primary-menu-font:             $body-font;
 $primary-menu-font-weight:      400;
@@ -131,44 +122,14 @@ $primary-menu-font-tt:          initial;
 $primary-menu-font-color:       #2f363a;
 $primary-menu-font-spacing:     0;
 
-// top Button
-// $top-btn-font-size:        			0.875rem;
-
 
 //-------------------- Section --------------------//
 
-$section-spacer:						    7.5rem;
-$section-spacer-75px:						4.6875rem;
-$section-spacer-120px:					7.5rem;
+$section-spacer:				7.5rem;
 
 
-// ##################################################
-
-//-------------------- Basic Values ------------------//
-$initial:                       initial;
-$white:                         white;
-$black:                         black;
-
-//-------------------- Font Color --------------------//
-$font-color-body:               #282828;
-
-$font-color-first:              #4f4f4f;
-$font-color-second:             #848484;
-$font-color-third:              #969696;
-$font-color-fourth:             #86bf3e;
-$font-color-fivth:              #fc4b4e;
-$font-color-sixth:              #79cbe4;
-$font-color-seventh:            #7d7c7b;
-
-//-------------------- Background Color -------------//
-$bg-color-first:                #fc4b4e;
-$bg-color-second:               #f7fafc;
-$bg-color-third:                #f1f6fa;
-$bg-color-fourth:               #fec740;
-$bg-color-fivth:                #86bf3e;
 
 //-------------------- Social Icons Colors --------------------//
-
 $facebook:                    #3B5998;
 $delicious:                   #205CC0;
 $paypal:                      #00588B;

@@ -22,20 +22,15 @@
 	
 	.title {
 		display: block;		
-		font-family: $heading-font;
-		font-size: 3.1rem;
-		font-weight: 800;
+		font-size: 3.75rem;
+		font-weight: 400;
 		line-height: 1;
-		margin-bottom: 2rem;
+		color: $white;
 	}
 
 	.sub-title {
-		display: block;
-		font-family: $heading-font;		
-		font-size: 3rem;
+		font-size: 1.5rem;
 		font-weight: 400;
 		line-height: 1;
-		margin-bottom: 0.8rem;
-		color: $primary;
 	}
 }

@@ -17,48 +17,41 @@
 
 
 .widget {
-	margin-bottom: 1.875rem;
+	margin-bottom: 1.25rem;
 
 	.widget-title {
-		font-size: $font-size-base;
 		font-family: $body-font;
-		font-weight: 600;
-		margin-bottom: 0.85rem;
-	}
-
-	&.widget-contact {
-		margin-top: -0.6rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		margin-bottom: 0.875rem;
+		text-transform: uppercase;
 	}
 
 	// Widget - Social
 	&.widget-social {
 		.social-icons {
 			li {
-				padding: 0 0.25rem;
-
+				padding: 0 $spacer*0.25;
+	
 				&:last-child {
 					padding-right: 0;
 				}
 		
 				a {
-					background-color: $third-color;					
-					color: #b7b7b7;
-					display: inline-block;
-					line-height: 1.8125rem;
-					width: 1.8125rem;
-					height: 1.8125rem;		
-					vertical-align: middle;
-					text-align: center;
+					background-color: #f7fafc;
+					color: #848484;
+					line-height: $spacer*1.8125;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: $spacer*2.5;
+					height: $spacer*2.5;
+					border-radius: $spacer*0.5;
 					transition: all 0.3s ease-in-out;
 		
 					&:hover {
 						background-color: $theme-color;
 						color: $white;
-					}
-		
-					i {
-						vertical-align: top;
-						line-height: 1.8125rem;
 					}
 				}
 			}
@@ -69,16 +62,32 @@
 	&.widget-links {
 		ul {
 			li {
+				margin-bottom: 0.75rem;
+
 				a {
-					color: $body-color;
 					font-weight: 300;
-					font-size: 1rem;
 					transition: all 0.3s ease-in-out;
 
 					&:hover {
-						color: white;
+						color: $theme-color;
 					}
 				}
+			}
+		}
+	}
+
+	&.widget-custom-html {
+		a {
+			display: block;
+
+			i {
+				margin-right: 0.875rem;
+				font-size: 1.25rem;
+			}
+
+			span {
+				font-size: 0.875rem;
+				font-weight: 300;
 			}
 		}
 	}

@@ -55,11 +55,11 @@
                         
                         <!-- Navbar Collapse
                         ============================================= -->
-                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-between">
 
                             <!-- Top Links
                             ============================================= -->
-                            <div id="menu-left" class="me-auto body-font fs-750">
+                            <div id="top-links">
                                 <ul class="nav navbar-nav">
 
                                     <li class="nav-item dropdown">
@@ -92,38 +92,37 @@
                                 </ul>
                             </div><!-- .top-links -->
 
-                            <!-- #menu-top -->
-                            <div id="menu-top" class="body-font fs-900 d-flex position-relative ">
-                                <nav class="navbar navbar-expand-xl">
+                            <!-- #primary menu -->
+                            <div id="primary-menu">
+                                <nav class="navbar navbar-expand-xl justify-content-center">
                                     <ul class="navbar-nav">
                                     <li class="current nav-item">
                                         <a href="#" class="nav-link">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                                        aria-expanded="false">Element</a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Element</a>
                                         <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Element1</a></li>
-                                        <li><a href="#" class="dropdown-item">Element2</a></li>
-                                        <li><a href="#" class="dropdown-item">Element3</a></li>
+                                            <li><a href="#" class="dropdown-item">Element1</a></li>
+                                            <li><a href="#" class="dropdown-item">Element2</a></li>
+                                            <li><a href="#" class="dropdown-item">Element3</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                                         aria-expanded="false">Features</a>
-                                        <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Features1</a></li>
-                                        <li><a href="#" class="dropdown-item">Features2</a></li>
-                                        <li><a href="#" class="dropdown-item">Features3</a></li>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown-item">Features1</a></li>
+                                            <li><a href="#" class="dropdown-item">Features2</a></li>
+                                            <li><a href="#" class="dropdown-item">Features3</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                                         aria-expanded="false">Pages</a>
                                         <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Pages1</a></li>
-                                        <li><a href="#" class="dropdown-item">Pages2</a></li>
-                                        <li><a href="#" class="dropdown-item">Pages3</a></li>
+                                            <li><a href="#" class="dropdown-item">Pages1</a></li>
+                                            <li><a href="#" class="dropdown-item">Pages2</a></li>
+                                            <li><a href="#" class="dropdown-item">Pages3</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -137,28 +136,19 @@
                                     </li>
                                     </ul>
                                 </nav>
-                            </div>
-
-                            <!-- Primary Navigation
-                            ============================================= -->
-                            <nav id="menu-right" class="body-font fs-900">
-
-                                <ul class="navbar-nav">
-                                    <li class="current nav-item">
-                                      <a href="#" class="nav-link">Login</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a href="#" class="nav-link">Registration</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
+                            </div><!-- primary menu -->
 
                             <!-- Top Buttons
                             ============================================= -->
-                            <div id="menu-right-icon" class="body-font fs-1250">
+                            <div id="top-btns">
                                 
                                 <ul class="navbar-nav flex-row">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Registration</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
                                     </li>
@@ -187,283 +177,226 @@
 
             <div class="content-wrap about-bg">
 
-                <!-- Parallax
-                ============================================= -->
-                <div class="about-image">
-                    <img src="images/background/back_about_1.png" alt="About Us" class="img-fluid about-back">
-                    <div class="about-hello heading-font">
-                        <div class="fs-1400 text-body">Hello</div>
-                        <div class="text-white">
-                            About Us
-                            <img src="images/icons/mark-butterfly.png" alt="" class="img-fluid ps-2" width="40px" height="30px">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post section-120px bg-color-second">
+                <div id="about-banner" class="banner bg-cover" style="background-image: url(./images/background/back_about_1.png);">
 
                     <div class="container">
+                        <div id="page-title">
+                            <h4 class="sub-title">Hello</h4>
+                            <h2 class="title mb-0">About Us <img src="images/icons/mark-butterfly.png" alt="" class="img-fluid ps-2" width="40px" height="30px"></h2>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="section">
+
+                    <div class="container">
+
                         <div class="row">
 
-                            <div class="col-xl-4 col-12 post-left">
-                                <div class="row d-flex justify-content-around">
-                                    <div class="col-xl-12 col-md-4 col-7">
-                                        <div class="post-card mb-5">
-                                            <div class="post-card-img">
-                                                <a href="#">
-                                                    <img src="images/portfolio/about_portfolio1.png" alt="" class="img-fluid rounded-card">
-                                                </a>
-                                            </div>
-                                            <div class="post-card-details">
-                                                <div class="post-description fs-1050">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                                <a href="#" class="post-year fs-875 text-fourth">2021</a>
-                                            </div>
-                                        </div>
+                            <div class="col-lg-4">
+
+                                <div class="event">
+                                    <div class="event-thumbnail">
+                                        <img src="./images/portfolio/about_portfolio1.png" alt="">
                                     </div>
-                                    <div class="col-xl-12 col-md-4 col-7">
-                                        <div class="post-card mb-5">
-                                            <div class="post-card-img">
-                                                <a href="#">
-                                                    <img src="images/portfolio/about_portfolio2.png" alt="" class="img-fluid rounded-card">
-                                                </a>
-                                            </div>
-                                            <div class="post-card-details">
-                                                <div class="post-description fs-1050">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                                <a href="#" class="post-year fs-875 text-fourth">2020</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-md-4 col-7">
-                                        <div class="post-card mb-5">
-                                            <div class="post-card-img">
-                                                <a href="#">
-                                                    <img src="images/portfolio/about_portfolio3.png" alt="" class="img-fluid rounded-card">
-                                                </a>
-                                            </div>
-                                            <div class="post-card-details">
-                                                <div class="post-description fs-1050">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
-                                                <a href="#" class="post-year fs-875 text-fourth">2019</a>
-                                            </div>
-                                        </div>
+                                    <div class="event-content">
+                                        <p class="fw-light fs-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                        <h4 class="event-date">2021</h4>
                                     </div>
                                 </div>
+
+                                <div class="event">
+                                    <div class="event-thumbnail">
+                                        <img src="./images/portfolio/about_portfolio2.png" alt="">
+                                    </div>
+                                    <div class="event-content">
+                                        <p class="fw-light fs-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                        <h4 class="event-date">2020</h4>
+                                    </div>
+                                </div>
+
+                                <div class="event">
+                                    <div class="event-thumbnail">
+                                        <img src="./images/portfolio/about_portfolio3.png" alt="">
+                                    </div>
+                                    <div class="event-content">
+                                        <p class="fw-light fs-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                        <h4 class="event-date">2019</h4>
+                                    </div>
+                                </div>
+
                             </div>
+
+                            <div class="col-lg-7 offset-lg-1">
+                                <img src="images/portfolio/about_portfolio0.png" class="w-100 mb-5" alt="">
                             
-                            <div class="col-xl-8 col-11 post-right">
-                                <div class="post-card">
-                                    <div class="post-card-img">
-                                        <a href="#">
-                                            <img src="images/portfolio/about_portfolio0.png" alt="" class="img-fluid rounded-card">
-                                        </a>
-                                    </div>
+                                <div class="px-5">
+                                    <h4 class="lh-sm text-primary mb-lg-4">" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h4>
+                                    <h4 class="mb-4">Lorem ipsum dolor sit amet</h4>
+                                    <p class="lh-base fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    <p class="lh-base fs-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                    <p class="lh-base fs-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam </p>
                                 </div>
-                                <div class="post-title">
-                                    <div class="d-flex pt-4 pb-2">
-                                        <div class="post-title-comma heading-font text-fourth text-center">'' </div>
-                                        <div class="post-title-description ps-5 heading-font text-fourth fs-1400">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-                                    </div>
 
-                                    <p class="heading-font text-body fs-1400 mb-0">Lorem ipsum dolor sit amet</p>
-
-                                    <p class="body-font text-body fs-1050">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-                                    <p class="body-font text-body fs-1050">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
-                                    <p class="body-font text-body fs-1050">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
-                                </div>
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
 
-                <div class="section-pt-75px section-pb-120px bg-white">
-                    
+                <!-- Best Sellers
+                ============================================= -->
+                <div class="section pt-0">
+
                     <div class="container">
-                        <div class="heading-block mb-3">
-                            <h2 class="title text-body text-center">Best <img src="images/icons/crown.png" alt="" class="img-card rounded-card"> Sellers</h2>
+
+                        <div class="heading-block">
+                            <h2 class="title text-center">Best <img src="images/icons/mark-bird.png" alt="" class="img-card rounded-card"> Sellers</h2>
                         </div>
-                        <div class="row d-flex">
-                            <div class="col-xl-5 px-5">
+
+                        <div class="row">
+
+                            <div class="col-lg-5">
+
                                 <div class="product">
-                                    <div class="product-top text-fourth heading-font">
-                                        Best
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_1.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_1.png" alt="" class="img-full rounded-card">
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers Kotofey</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">
+                                            <span class="text-danger">$39</span>
+                                            <del>$59</del>
                                         </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">
-                                            <p class="heading-font fs-1400 text-fivth">
-                                                $39
-                                            </p>
-                                            <div class="product-price-mark">
-                                                <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                            </div>
-                                            <del class="body-font text-black fs-900 ps-1">$59</del>
+                                        <a href="#" class="add-to-cart">Buy</a>
+                                    </div>
+                                    <div class="onbest">Best</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-2">
+                                
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_2.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
+                                    </div>
+                                    <div class="onnew">New</div>
+                                </div>
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_3.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-2 px-5">
-                                <div class="row">
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <div class="product-top text-sixth heading-font">
-                                                New
-                                            </div>
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_2.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_4.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
                                     </div>
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_3.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
+                                    </div>
+                                    <div class="ontop">Top</div>
+                                </div>
+
+                                <div class="product">
+                                    <img src="./images/shop/product_5.png" class="w-100" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-2">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_6.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-3 px-5">
-                                <div class="row">
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <div class="product-top text-fivth heading-font">
-                                                Top
-                                            </div>
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_4.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price d-flex">
-                                                    <p class="heading-font fs-1400 text-fivth">
-                                                        $39
-                                                    </p>
-                                                    <div class="product-price-mark">
-                                                        <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                                    </div>
-                                                    <del class="body-font text-black fs-900 ps-1">$59</del>
-                                                </div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_7.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
                                     </div>
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_5.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle-price heading-font">
-                                                    <div class="product-name text-white fs-1050 pe-2">All</div>
-                                                    <div class="product-company text-white fs-875 lh-1">$19</div>
-                                                </div>
-                                            </a>
-                                        </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-2 px-5">
-                                <div class="row">
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_6.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_7.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="row d-flex">
-                            <div class="col-12 px-5">
+
+                            <div class="col-12 mt-5">
                                 <img src="images/background/back_about_2.png" alt="" class="img-fluid rounded-card">
                             </div>
+
                         </div>
-                    </div>
-                </div>
 
+                    </div>
 
-                <!-- <div class="team">
-                    <div class="team-info">
-                        <img src="images/portfolio/about_portfolio0.png" alt="Our Agents" class="img-card">
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center mt-5">
-                        <p class="team-name text-capitalize"> aasf alksdjflkfjlkdsf</p>
-                        <span class="team-mark">
-                            <i class="fas fa-star"></i>
-                            4.8
-                        </span>
-                    </div>
-                </div> -->
+                </div><!-- Best sellers -->
+
             </div>
 
         </section><!-- #content -->
@@ -478,30 +411,27 @@
 
                 <div class="container">
 
-                    <div class="row justify-content-center align-items-center gx-4">
+                    <div class="row align-items-center">
 
-                        <div class="col-lg-4 col-12 px-4">
-                            <div class="footer-top-signup">
-                                <div class="d-flex">
-                                    <div class="signup-title heading-font text-white fs-3000 text-nowrap my-2 me-3">
-                                        <p class="my-0"> Sign Up to </p>
-                                        <p class="my-0"> Newsletter </p>
-                                    </div>
-                                    <img src="images/footer-top-left.png" style="width: 110px;position: relative;top: 30px; top: -15px" alt="" class="img-card">
-                                </div>
-                                <p class="body-font fs-1000 text-white text-nowrap my-2">and receive $20 coupon for first shopping</p>
+                        <div class="col-lg-4 offset-lg-2">
+
+                            <div class="d-flex align-items-start">
+                                <h3 class="lh-1 text-white mb-3">Sign Up to Newsletter </h3>
+                                <img src="images/footer-top-left.png" alt="">
                             </div>
+                            <p class="lh-base fw-light text-white">and receilve $20 coupon for first shopping</p>
+
                             <form action="#" class="signup-button mb-0">
-                                <div class="input-group feedback rounded-card bg-white">
-                                    <input type="email" class="form-control" placeholder="Enter your mail" aria-label="Email" />
-                                    <button class="btn fs-800 text-white rounded-card bg-color-fourth" type="submit">Sign Up</button>
+                                <div class="input-group">
+                                    <input type="email" class="form-control bg-white" placeholder="Enter your mail" aria-label="Email" />
+                                    <button class="btn btn-warning text-white rounded" type="submit" style="margin-left: -1rem;">Sign Up</button>
                                 </div>
                             </form>
+
                         </div>
 
-                        <div class="col-lg-4 col-7">
-                            <!-- <img src="images/portfolio/about_portfolio0.png" alt="" class="img-fluid"> -->
-                            <img src="images/footer-top-right.png" alt="" class="img-footer-right">
+                        <div class="col-lg-3 offset-lg-1">
+                            <img src="./images/footer-top-right.png" class="img-fluid" alt="">
                         </div>
 
                     </div>
@@ -512,7 +442,7 @@
 
             <!-- Footer Main
 		    ============================================= -->
-            <div id="footer-main" class="section-pt-75px body-font">
+            <div id="footer-main">
 
                 <div class="container">
 
@@ -520,77 +450,81 @@
 
                         <div class="col-xl-2 col-md-12">
 
-                            <p class="fs-850 text-third lh-sm me-3">
+                            <p class="fs-6 lh-base">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                             </p>
-
+                            
                         </div>
 
-                        <div class="col-xl-4 col-md-12">
-                            <!-- justify-content-end -->
-                            <div class="row justify-content-around">
-                                <!-- <div class="col-0 col-xl-1 pe-0"></div> -->
-                                <div class="col-xl-4 col-sm-6 col-12 pe-0">
-                                    <ul class="list-align list-group mb-2 fs-900 text-first">
-                                        <h5 class="text-uppercase fs-850 fw-bold text-black">
-                                            About Us
-                                        </h5>
-                                        <li><a href="#">About the brand</a></li>
-                                        <li><a href="#">Quality</a></li>
-                                        <li><a href="#">Design</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">More</a></li>
-                                        <li><a href="#">More</a></li>
-                                    </ul>
+                        <div class="col-xl-4">
+
+                            <div class="row">
+                                
+                                <div class="col-xl-5 offset-xl-1">
+
+                                    <div class="widget widget-links">
+                                        <h5 class="widget-title">About us</h5>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><a href="#">About the brand</a></li>
+                                                <li><a href="#">Quality</a></li>
+                                                <li><a href="#">Design</a></li>
+                                                <li><a href="#">News</a></li>
+                                                <li><a href="#">More</a></li>
+                                                <li><a href="#">More</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="col-xl-4 col-sm-6 col-12 pe-0">
-                                    <ul class="list-align list-group mb-2 fs-900 text-first">
-                                        <h5 class="text-uppercase fs-850 fw-bold text-black">
-                                            Information
-                                        </h5>
-                                        <li><a href="#">Promotions</a></li>
-                                        <li><a href="#">Authentication</a></li>
-                                        <li><a href="#">Gift Card</a></li>
-                                        <li><a href="#">More</a></li>
-                                        <li><a href="#">More</a></li>
-                                        <li><a href="#">More</a></li>
-                                    </ul>
+
+                                <div class="col-xl-4">
+
+                                    <div class="widget widget-links">
+                                        <h5 class="widget-title">Information</h5>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><a href="#">Promotions</a></li>
+                                                <li><a href="#">Authentication</a></li>
+                                                <li><a href="#">Gift card</a></li>
+                                                <li><a href="#">More</a></li>
+                                                <li><a href="#">More</a></li>
+                                                <li><a href="#">More</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="col-xl-2 col-0 px-0"></div>
-                              </div>
+
+                            </div>
 
                         </div>
 
-                        <div class="col-xl-1 col-md-0">
-                            <div class="widget widget-image"></div>
-                        </div>
+                        <div class="col-xl-5 offset-xl-1 col-md-12">
 
-                        <div class="col-xl-5 col-md-12">
+                            <div class="row">
 
-                            <div class="row justify-content-around">
-                                <div class="col-xl-6 col-12 pe-0 list-align">
-                                    <ul class="list-group">
-                                        <li class="footer-main-first">
-                                            <a href="callto:1234567890" class="text-nowrap" target="_blank" title="phone">
-                                                <span class="text-fourth"><i class="fas fa-phone-alt"></i></span>
-                                                <span class="heading-font fs-1500 lh-1 text-fourth">123-456-7890</span>
+                                <div class="col-xl-7">
+
+                                    <div class="widget widget-custom-html">
+                                        <div class="widget-content">
+                                            <a href="#" class="text-primary">
+                                                <i class="fas fa-phone-alt"></i>
+                                                <span class="fs-4 heading-font">123-456-7890</span>
                                             </a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto:mail@example.com" target="_blank" title="phone">
-                                                <span class="lh-sm text-first"><i class="far fa-envelope"></i></span>
-                                                <span class="body-font fs-800 text-first">mail@example.com</span>
+                                            <a href="#">
+                                                <i class="fas fa-envelope"></i>
+                                                <span>mail@example.com</span>
                                             </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank" title="phone">
-                                                <span class="lh-sm text-first">
-                                                    <i class="fas fa-map-marker-alt"></i>
-                                                </span>
-                                                <span class="body-font fs-800 text-first">New York 5686 Edverano Center</span>
+                                            <a href="#">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <span>New York 5686 Edverano Center</span>
                                             </a>
-                                        </li>
-                                        <div class="col-sm-auto mt-3 mb-3">
+                                        </div>
+                                    </div>
+
+                                    <div class="widget widget-social">
+                                        <div class="widget-content">
                                             <ul class="social-icons d-flex my-1">
                                                 <li>
                                                     <a href="#" target="_blank" title="Facebook"> <i class="fab fa-facebook-f"></i> </a>
@@ -609,17 +543,18 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-sm-auto d-flex me-1">
-                                            <span class="copyright body-font my-1 fs-850 text-third">&copy; Copyright 2021</span>
-                                        </div>
-                                    </ul>
+                                    </div>
+                                    
+                                    <span class="copyright my-1 fs-6 ">&copy; Copyright 2021</span>
+
                                 </div>
-                                <div class="col-xl-4 col-12 pe-0">
-                                    <p class="footer-main-second heading-font fs-900 text-fourth lh-sm">
-                                        '' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.''
-                                    </p>
+
+                                <div class="col-xl-5">
+                                    <p class="heading-font text-primary lh-sm">'' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.''</p>
                                 </div>
+
                             </div>
+                            
                         </div>
 
                     </div>

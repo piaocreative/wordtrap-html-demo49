@@ -11,7 +11,7 @@
     <!-- Fonts
     ============================================= -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700;800;900&family=Knewave:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&family=Knewave:wght@300;400;500&display=swap" rel="stylesheet">
 
     <!-- Fontawesome
 	============================================= -->
@@ -30,6 +30,7 @@
 	============================================= -->
     <title>Demo49 | Saler</title>
 </head>
+
 <body id="demo49">
 
     <!-- Document Wrapper
@@ -60,11 +61,11 @@
                         
                         <!-- Navbar Collapse
                         ============================================= -->
-                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-between">
 
                             <!-- Top Links
                             ============================================= -->
-                            <div id="menu-left" class="me-auto body-font fs-750">
+                            <div id="top-links">
                                 <ul class="nav navbar-nav">
 
                                     <li class="nav-item dropdown">
@@ -97,38 +98,37 @@
                                 </ul>
                             </div><!-- .top-links -->
 
-                            <!-- #menu-top -->
-                            <div id="menu-top" class="body-font fs-900 d-flex position-relative ">
-                                <nav class="navbar navbar-expand-xl">
+                            <!-- #primary menu -->
+                            <div id="primary-menu">
+                                <nav class="navbar navbar-expand-xl justify-content-center">
                                     <ul class="navbar-nav">
                                     <li class="current nav-item">
                                         <a href="#" class="nav-link">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                                        aria-expanded="false">Element</a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Element</a>
                                         <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Element1</a></li>
-                                        <li><a href="#" class="dropdown-item">Element2</a></li>
-                                        <li><a href="#" class="dropdown-item">Element3</a></li>
+                                            <li><a href="#" class="dropdown-item">Element1</a></li>
+                                            <li><a href="#" class="dropdown-item">Element2</a></li>
+                                            <li><a href="#" class="dropdown-item">Element3</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                                         aria-expanded="false">Features</a>
-                                        <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Features1</a></li>
-                                        <li><a href="#" class="dropdown-item">Features2</a></li>
-                                        <li><a href="#" class="dropdown-item">Features3</a></li>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#" class="dropdown-item">Features1</a></li>
+                                            <li><a href="#" class="dropdown-item">Features2</a></li>
+                                            <li><a href="#" class="dropdown-item">Features3</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                                         aria-expanded="false">Pages</a>
                                         <ul class="dropdown-menu">
-                                        <li><a href="#" class="dropdown-item">Pages1</a></li>
-                                        <li><a href="#" class="dropdown-item">Pages2</a></li>
-                                        <li><a href="#" class="dropdown-item">Pages3</a></li>
+                                            <li><a href="#" class="dropdown-item">Pages1</a></li>
+                                            <li><a href="#" class="dropdown-item">Pages2</a></li>
+                                            <li><a href="#" class="dropdown-item">Pages3</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -142,28 +142,19 @@
                                     </li>
                                     </ul>
                                 </nav>
-                            </div>
-
-                            <!-- Primary Navigation
-                            ============================================= -->
-                            <nav id="menu-right" class="body-font fs-900">
-
-                                <ul class="navbar-nav">
-                                    <li class="current nav-item">
-                                      <a href="#" class="nav-link">Login</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a href="#" class="nav-link">Registration</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
+                            </div><!-- primary menu -->
 
                             <!-- Top Buttons
                             ============================================= -->
-                            <div id="menu-right-icon" class="body-font fs-1250">
+                            <div id="top-btns">
                                 
                                 <ul class="navbar-nav flex-row">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Registration</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
                                     </li>
@@ -192,416 +183,370 @@
 
             <div class="content-wrap">
 
-                <!-- Parallax
+                <!-- banner
                 ============================================= -->
-                <div class="banner-main-top heading-font">
-                    <div class="banner-content">
-                        <div class="text-body fs-1400 lh-1">from 8 to 14 March</div>
-                        <div class="banner-title text-white">
-                            Supersale
-                            <img src="images/icons/mark-butterfly.png" alt="" class="img-fluid" width="30px" height="30px">
-                        </div>
-                        <img src="images/logos/up-to-80.png" alt="up-to-80" class="banner-logo">
-                        <a href="#">
-                            <div class="banner-btn body-font btn fs-900">See more</div>
-                        </a>
-                    </div>
-                </div>
+                <div class="banner">
+                    <img src="./images/banner/back-main-top.png" class="img-full" alt="">
+                </div><!-- banner -->
 
-                <div class="section-pt-75px section-pb-120px bg-color-second">
-                    
+                 <!-- Featured product
+                ============================================ -->
+                <div class="section">
+
                     <div class="container">
 
-                        <div class="heading-block mb-3">
-                            <h2 class="title text-body text-center">Featured <img src="images/icons/mark-bird.png" alt="" class="img-card rounded-card"> Product</h2>
+                        <div class="row">
+
+                            <div class="heading-block">
+                                <h2 class="title text-center">Featured <img src="images/icons/mark-bird.png" alt="" class="img-card rounded-card"> Product</h2>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_8.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">$39</div>
+                                            <a href="#" class="add-to-cart">Buy</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_9.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">
+                                                <span class="text-danger">$39</span>
+                                                <del>$59</del>
+                                            </div>
+                                            <a href="#" class="add-to-cart">Buy</a>
+                                        </div>
+                                        <div class="onsale">-45%</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_10.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">
+                                                <span class="text-danger">$39</span>
+                                                <del>$59</del>
+                                            </div>
+                                            <a href="#" class="add-to-cart">Buy</a>
+                                        </div>
+                                        <div class="onsale">-45%</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_11.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">$39</div>
+                                            <a href="#" class="add-to-cart">Buy</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_12.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">
+                                                <span class="text-danger">$39</span>
+                                                <del>$59</del>
+                                            </div>
+                                            <a href="#" class="add-to-cart">Buy</a>
+                                        </div>
+                                        <div class="onsale">-45%</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_13.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">
+                                                <span class="text-danger">$39</span>
+                                                <del>$59</del>
+                                            </div>
+                                            <a href="#" class="add-to-cart">Buy</a>
+                                        </div>
+                                        <div class="onsale">-45%</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product_14.png" alt="" class="img-full"></a>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-details">
+                                            <h4 class="product-title mb-0">Sneakers</h4>
+                                            <div class="product-category">
+                                                <p class="mb-0">Adidas</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                            <div class="product-price">$39
+                                            </div>
+                                            <a href="#" class=  "add-to-cart">Buy</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-3">
+
+                                    <img src="./images/shop/product_15.png" class="img-full rounded" alt="">
+
+                                </div>
+
+                            </div>
+
                         </div>
 
-                        <div class="row d-flex pb-5">
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_8.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">$39</div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <div class="product-top text-fivth heading-font">
-                                        -45%
-                                    </div>
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_9.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">
-                                            <p class="heading-font fs-1400 text-fivth">
-                                                $39
-                                            </p>
-                                            <div class="product-price-mark">
-                                                <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                            </div>
-                                            <del class="body-font text-black fs-900 ps-1">$59</del>
-                                        </div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <div class="product-top text-fivth heading-font">
-                                        -45%
-                                    </div>
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_10.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">
-                                            <p class="heading-font fs-1400 text-fivth">
-                                                $39
-                                            </p>
-                                            <div class="product-price-mark">
-                                                <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                            </div>
-                                            <del class="body-font text-black fs-900 ps-1">$59</del>
-                                        </div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_11.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">$39</div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="row d-flex pt-2">
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <div class="product-top text-fivth heading-font">
-                                        -45%
-                                    </div>
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_12.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">
-                                            <p class="heading-font fs-1400 text-fivth">
-                                                $39
-                                            </p>
-                                            <div class="product-price-mark">
-                                                <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                            </div>
-                                            <del class="body-font text-black fs-900 ps-1">$59</del>
-                                        </div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <div class="product-top text-fivth heading-font">
-                                        -45%
-                                    </div>
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_13.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">
-                                            <p class="heading-font fs-1400 text-fivth">
-                                                $39
-                                            </p>
-                                            <div class="product-price-mark">
-                                                <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                            </div>
-                                            <del class="body-font text-black fs-900 ps-1">$59</del>
-                                        </div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_14.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">$39</div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6 col-sm-12 px-5">
-                                <div class="product">
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_15.png" alt="" class="img-full rounded-card">
-                                        </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
 
-                <!-- Banner
-                ============================================= -->
-                <div class="banner-main-middle heading-font">
-                    <div class="banner-content">
-                        <div class="banner-title text-white">
-                            Supersale
-                            <img src="images/icons/mark-butterfly.png" alt="" class="img-fluid" width="30px" height="30px">
-                        </div>
-                        <img src="images/logos/up-to-45.png" alt="up-to-45" class="banner-logo">
+                </div><!-- Featured product -->
+
+                <!-- sale
+                ============================================ -->
+                <div class="section bg-cover" style="background-image: url(./images/banner/back-main-middle.png);">
+
+                    <div class="text-center">
+                        <h2 class="fw-normal text-white">Supersale</h2>
+                        <img src="./images/logos/up-to-45.png" style="width: 20rem;" alt="">
                     </div>
-                </div>
+
+                </div><!-- Sale -->
 
                 <!-- Best Sellers
                 ============================================= -->
-                <div class="section-pt-75px bg-white">
-                    
+                <div class="section pb-5">
+
                     <div class="container">
-                        <div class="heading-block mb-3">
-                            <h2 class="title text-body text-center">Best <img src="images/icons/crown.png" alt="" class="img-card rounded-card"> Sellers</h2>
+
+                        <div class="heading-block">
+                            <h2 class="title text-center">Best <img src="images/icons/mark-bird.png" alt="" class="img-card rounded-card"> Sellers</h2>
                         </div>
-                        <div class="row d-flex">
-                            <div class="col-xl-5 px-5">
+
+                        <div class="row">
+
+                            <div class="col-lg-5">
+
                                 <div class="product">
-                                    <div class="product-top text-fourth heading-font">
-                                        Best
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_1.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
-                                    <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                    <a href="#">
-                                        <div class="product-image">
-                                            <img src="images/shop/product_1.png" alt="" class="img-full rounded-card">
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers Kotofey</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
-                                        <div class="product-middle text-body">
-                                            <div class="product-name fs-1050 text-body">Sneakers</div>
-                                            <div class="product-company fs-875">Adidas</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">
+                                            <span class="text-danger">$39</span>
+                                            <del>$59</del>
                                         </div>
-                                    </a>
-                                    <div class="product-bottom text-body rounded-card bg-white">
-                                        <div class="product-price heading-font fs-1400">
-                                            <p class="heading-font fs-1400 text-fivth">
-                                                $39
-                                            </p>
-                                            <div class="product-price-mark">
-                                                <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                            </div>
-                                            <del class="body-font text-black fs-900 ps-1">$59</del>
+                                        <a href="#" class="add-to-cart">Buy</a>
+                                    </div>
+                                    <div class="onbest">Best</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-2">
+                                
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_2.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
-                                        <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
+                                    </div>
+                                    <div class="onnew">New</div>
+                                </div>
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_3.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-2 px-5">
-                                <div class="row">
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product mb-4">
-                                            <div class="product-top text-sixth heading-font">
-                                                New
-                                            </div>
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_2.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_4.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
                                     </div>
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_3.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
+                                    </div>
+                                    <div class="ontop">Top</div>
+                                </div>
+
+                                <div class="product">
+                                    <img src="./images/shop/product_5.png" class="w-100" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-2">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_6.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-3 px-5">
-                                <div class="row">
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product mb-4">
-                                            <div class="product-top text-fivth heading-font">
-                                                Top
-                                            </div>
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_4.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price d-flex">
-                                                    <p class="heading-font fs-1400 text-fivth">
-                                                        $39
-                                                    </p>
-                                                    <div class="product-price-mark">
-                                                        <img src="images/icons/mark-@.png" alt="" class="img-fluid">
-                                                    </div>
-                                                    <del class="body-font text-black fs-900 ps-1">$59</del>
-                                                </div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="images/shop/product_7.png" alt="" class="img-full"></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <h4 class="product-title mb-0">Sneakers</h4>
+                                        <div class="product-category">
+                                            <p class="mb-0">Adidas</p>
                                         </div>
                                     </div>
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_5.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle-price heading-font">
-                                                    <div class="product-name text-white fs-1050 pe-2">All</div>
-                                                    <div class="product-company text-white fs-875 lh-1">$19</div>
-                                                </div>
-                                            </a>
-                                        </div>
+                                    <div class="d-flex justify-content-between align-items-center p-1 rounded bg-white">
+                                        <div class="product-price">$39</div>
+                                        <a href="#" class="add-to-cart">Buy</a>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-2 px-5">
-                                <div class="row">
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product mb-4">
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_6.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-sm-6">
-                                        <div class="product">
-                                            <img src="images/icons/mark-heart.png" alt="" class="img-card product-top-mark">
-                                            <a href="#">
-                                                <div class="product-image">
-                                                    <img src="images/shop/product_7.png" alt="" class="img-full rounded-card">
-                                                </div>
-                                                <div class="product-middle text-body">
-                                                    <div class="product-name fs-1050 text-body">Sneakers</div>
-                                                    <div class="product-company fs-875">Adidas</div>
-                                                </div>
-                                            </a>
-                                            <div class="product-bottom text-body rounded-card bg-white">
-                                                <div class="product-price heading-font fs-1400">$39</div>
-                                                <a href="#" class="product-btn rounded-card bg-color-fivth text-white">Buy</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="row d-flex">
-                            <div class="col-12 px-5">
+
+                            <div class="col-12 mt-5">
                                 <img src="images/background/back_about_2.png" alt="" class="img-fluid rounded-card">
                             </div>
+
                         </div>
+
                     </div>
-                </div>
+
+                </div><!-- Best sellers -->
 
                 <!-- Partners
                 ============================================= -->
                 <div class="container">
 
-                    <div class="row section-pb-120px">
+                    <div class="row">
 
                         <div class="col-12">
                             <div class="logos">
@@ -620,107 +565,139 @@
                 
                 <!-- Our News
                 ============================================= -->
-                <div class="post-bottom-child section-pt-75px section-pb-120px bg-color-second">
-                    
+                <div class="section pb-0">
+
                     <div class="container">
+
                         <div class="heading-block">
-                            <h2 class="title text-body text-center">Our <img src="images/icons/mark-music.png" alt="" class="img-card rounded-card"> News</h2>
+                            <h2 class="title text-center">Our <img src="images/icons/mark-music.png" alt="" class="img-card rounded-card"> News</h2>
                         </div>
-                        
-                        <div class="row d-flex">
-                            <div class="col-md-4 px-5">
-                                <div class="post-img-bar">
-                                    <a href="#">
-                                        <img src="images/posts/post_1.png" alt="" class="img-fluid rounded-card">
-                                        <div class="add-under-bar bg-color-fivth"></div>
-                                    </a>
-                                </div>
-                                <div class="post-content">
-                                    <div class="fs-1050 text-body">What to do if your child doesn't like clothes</div>
-                                    <div class="fs-875 post-date">1 may</div>
-                                </div>
+
+                        <div class="row">
+
+                            <div class="col-lg-4">
+
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/posts/post_1.png" alt="">
+                                    </div>
+                                    <div class="post-content text-center">
+                                        <h4 class="entry-title mb-0">What to do if your child doesn't like clothes</h4>
+                                        <div class="entry-meta">
+                                            <a href="#">1 may</a>
+                                        </div>
+                                    </div>
+                                </article>
+
                             </div>
-                            <div class="col-md-4 px-5">
-                                <div class="post-img-bar">
-                                    <a href="#">
-                                        <img src="images/posts/post_2.png" alt="" class="img-fluid rounded-card">
-                                        <div class="add-under-bar bg-color-fourth"></div>
-                                    </a>
-                                </div>
-                                <div class="post-content">
-                                    <div class="fs-1050 text-body">What to do if your child doesn't like clothes</div>
-                                    <div class="fs-875 post-date">1 may</div>
-                                </div>
+
+                            <div class="col-lg-4">
+
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/posts/post_2.png" alt="">
+                                    </div>
+                                    <div class="post-content text-center">
+                                        <h4 class="entry-title mb-0">What to do if your child doesn't like clothes</h4>
+                                        <div class="entry-meta">
+                                            <a href="#">1 may</a>
+                                        </div>
+                                    </div>
+                                </article>
+
                             </div>
-                            <div class="col-md-4 px-5">
-                                <div class="post-img-bar">
-                                    <a href="#">
-                                        <img src="images/posts/post_3.png" alt="" class="img-fluid rounded-card">
-                                        <div class="add-under-bar bg-color-first"></div>
-                                    </a>
-                                </div>
-                                <div class="post-content">
-                                    <div class="fs-1050 text-body">What to do if your child doesn't like clothes</div>
-                                    <div class="fs-875 post-date">1 may</div>
-                                </div>
+
+                            <div class="col-lg-4">
+
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/posts/post_3.png" alt="">
+                                    </div>
+                                    <div class="post-content text-center">
+                                        <h4 class="entry-title mb-0">What to do if your child doesn't like clothes</h4>
+                                        <div class="entry-meta">
+                                            <a href="#">1 may</a>
+                                        </div>
+                                    </div>
+                                </article>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div><!-- #ournews -->
 
-                <!-- How we are working
+                <!-- Featured box
                 ============================================= -->
-                <div class="post-bottom-avatar section-pt-75px section-pb-120px bg-white">
-                    
+                <div class="section">
+
                     <div class="container">
+
                         <div class="heading-block">
-                            <h2 class="title text-body text-center">How we are working</h2>
+                            <h2 class="title text-center">How we are working</h2>
                         </div>
-                        
-                        <div class="row d-flex">
-                            <div class="col-xl-3 col-md-6 px-5 pt-3">
-                                <div class="post-small">
-                                    <a href="#">
-                                        <img src="images/posts/post_4.png" alt="" class="img-fluid rounded-card">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="fs-1050 text-body">Place an xorder on our website and play for it</div>
+
+                        <div class="row">
+
+                            <div class="col-lg-3">
+
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/posts/post_4.png" class="img-fluid mb-4" alt="">
+                                    </div>
+                                    <div class="fbox-header">
+                                        <h5 class="body-font fw-light lh-sm">Place an xorder on our website and pay for it</h5>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-3 col-md-6 px-5 pt-3">
-                                <div class="post-small">
-                                    <a href="#">
-                                        <img src="images/posts/post_5.png" alt="" class="img-fluid rounded-card">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="fs-1050 text-body">We call to confirm the order and pack it</div>
+
+                            <div class="col-lg-3">
+
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/posts/post_5.png" class="img-fluid mb-4" alt="">
+                                    </div>
+                                    <div class="fbox-header">
+                                        <h5 class="body-font fw-light lh-sm">We call to confirm the order and pack it</h5>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-3 col-md-6 px-5 pt-3">
-                                <div class="post-small">
-                                    <a href="#">
-                                        <img src="images/posts/post_6.png" alt="" class="img-fluid rounded-card">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="fs-1050 text-body">Delivery takes 3-7 days depending on your city</div>
+
+                            <div class="col-lg-3">
+
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/posts/post_6.png" class="img-fluid mb-4" alt="">
+                                    </div>
+                                    <div class="fbox-header">
+                                        <h5 class="body-font fw-light lh-sm">Delivery takes 3-7 days depending on your city</h5>
                                     </div>
                                 </div>
+
                             </div>
-                            <div class="col-xl-3 col-md-6 px-5 pt-3">
-                                <div class="post-small">
-                                    <a href="#">
-                                        <img src="images/posts/post_7.png" alt="" class="img-fluid rounded-card">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="fs-1050 text-body">You receive your order andn you are happy</div>
+
+                            <div class="col-lg-3">
+
+                                <div class="fbox">
+                                    <div class="fbox-icon">
+                                        <img src="./images/posts/post_7.png" class="img-fluid mb-4" alt="">
+                                    </div>
+                                    <div class="fbox-header">
+                                        <h5 class="body-font fw-light lh-sm">You receive your order andn you are happy</h5>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
-                </div><!-- #ournews -->
+
+                </div><!-- Feature box -->
 
             </div>
 
@@ -736,30 +713,27 @@
 
                 <div class="container">
 
-                    <div class="row justify-content-center align-items-center gx-4">
+                    <div class="row align-items-center">
 
-                        <div class="col-lg-4 col-12 px-4">
-                            <div class="footer-top-signup">
-                                <div class="d-flex">
-                                    <div class="signup-title heading-font text-white fs-3000 text-nowrap my-2 me-3">
-                                        <p class="my-0"> Sign Up to </p>
-                                        <p class="my-0"> Newsletter </p>
-                                    </div>
-                                    <img src="images/footer-top-left.png" style="width: 110px;position: relative;top: 30px; top: -15px" alt="" class="img-card">
-                                </div>
-                                <p class="body-font fs-1000 text-white text-nowrap my-2">and receive $20 coupon for first shopping</p>
+                        <div class="col-lg-4 offset-lg-2">
+
+                            <div class="d-flex align-items-start">
+                                <h3 class="lh-1 text-white mb-3">Sign Up to Newsletter </h3>
+                                <img src="images/footer-top-left.png" alt="">
                             </div>
+                            <p class="lh-base fw-light text-white">and receilve $20 coupon for first shopping</p>
+
                             <form action="#" class="signup-button mb-0">
-                                <div class="input-group feedback rounded-card bg-white">
-                                    <input type="email" class="form-control" placeholder="Enter your mail" aria-label="Email" />
-                                    <button class="btn fs-800 text-white rounded-card bg-color-fourth" type="submit">Sign Up</button>
+                                <div class="input-group">
+                                    <input type="email" class="form-control bg-white" placeholder="Enter your mail" aria-label="Email" />
+                                    <button class="btn btn-warning text-white rounded" type="submit" style="margin-left: -1rem;">Sign Up</button>
                                 </div>
                             </form>
+
                         </div>
 
-                        <div class="col-lg-4 col-7">
-                            <!-- <img src="images/portfolio/about_portfolio0.png" alt="" class="img-fluid"> -->
-                            <img src="images/footer-top-right.png" alt="" class="img-footer-right">
+                        <div class="col-lg-3 offset-lg-1">
+                            <img src="./images/footer-top-right.png" class="img-fluid" alt="">
                         </div>
 
                     </div>
@@ -770,7 +744,7 @@
 
             <!-- Footer Main
 		    ============================================= -->
-            <div id="footer-main" class="section-pt-75px body-font">
+            <div id="footer-main">
 
                 <div class="container">
 
@@ -778,77 +752,81 @@
 
                         <div class="col-xl-2 col-md-12">
 
-                            <p class="fs-850 text-third lh-sm me-3">
+                            <p class="fs-6 lh-base">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                             </p>
-
+                            
                         </div>
 
-                        <div class="col-xl-4 col-md-12">
-                            <!-- justify-content-end -->
-                            <div class="row justify-content-around">
-                                <!-- <div class="col-0 col-xl-1 pe-0"></div> -->
-                                <div class="col-xl-4 col-sm-6 col-12 pe-0">
-                                    <ul class="list-align list-group mb-2 fs-900 text-first">
-                                        <h5 class="text-uppercase fs-850 fw-bold text-black">
-                                            About Us
-                                        </h5>
-                                        <li><a href="#">About the brand</a></li>
-                                        <li><a href="#">Quality</a></li>
-                                        <li><a href="#">Design</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">More</a></li>
-                                        <li><a href="#">More</a></li>
-                                    </ul>
+                        <div class="col-xl-4">
+
+                            <div class="row">
+                                
+                                <div class="col-xl-5 offset-xl-1">
+
+                                    <div class="widget widget-links">
+                                        <h5 class="widget-title">About us</h5>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><a href="#">About the brand</a></li>
+                                                <li><a href="#">Quality</a></li>
+                                                <li><a href="#">Design</a></li>
+                                                <li><a href="#">News</a></li>
+                                                <li><a href="#">More</a></li>
+                                                <li><a href="#">More</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="col-xl-4 col-sm-6 col-12 pe-0">
-                                    <ul class="list-align list-group mb-2 fs-900 text-first">
-                                        <h5 class="text-uppercase fs-850 fw-bold text-black">
-                                            Information
-                                        </h5>
-                                        <li><a href="#">Promotions</a></li>
-                                        <li><a href="#">Authentication</a></li>
-                                        <li><a href="#">Gift Card</a></li>
-                                        <li><a href="#">More</a></li>
-                                        <li><a href="#">More</a></li>
-                                        <li><a href="#">More</a></li>
-                                    </ul>
+
+                                <div class="col-xl-4">
+
+                                    <div class="widget widget-links">
+                                        <h5 class="widget-title">Information</h5>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><a href="#">Promotions</a></li>
+                                                <li><a href="#">Authentication</a></li>
+                                                <li><a href="#">Gift card</a></li>
+                                                <li><a href="#">More</a></li>
+                                                <li><a href="#">More</a></li>
+                                                <li><a href="#">More</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="col-xl-2 col-0 px-0"></div>
-                              </div>
+
+                            </div>
 
                         </div>
 
-                        <div class="col-xl-1 col-md-0">
-                            <div class="widget widget-image"></div>
-                        </div>
+                        <div class="col-xl-5 offset-xl-1 col-md-12">
 
-                        <div class="col-xl-5 col-md-12">
+                            <div class="row">
 
-                            <div class="row justify-content-around">
-                                <div class="col-xl-6 col-12 pe-0 list-align">
-                                    <ul class="list-group">
-                                        <li class="footer-main-first">
-                                            <a href="callto:1234567890" class="text-nowrap" target="_blank" title="phone">
-                                                <span class="text-fourth"><i class="fas fa-phone-alt"></i></span>
-                                                <span class="heading-font fs-1500 lh-1 text-fourth">123-456-7890</span>
+                                <div class="col-xl-7">
+
+                                    <div class="widget widget-custom-html">
+                                        <div class="widget-content">
+                                            <a href="#" class="text-primary">
+                                                <i class="fas fa-phone-alt"></i>
+                                                <span class="fs-4 heading-font">123-456-7890</span>
                                             </a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto:mail@example.com" target="_blank" title="phone">
-                                                <span class="lh-sm text-first"><i class="far fa-envelope"></i></span>
-                                                <span class="body-font fs-800 text-first">mail@example.com</span>
+                                            <a href="#">
+                                                <i class="fas fa-envelope"></i>
+                                                <span>mail@example.com</span>
                                             </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" target="_blank" title="phone">
-                                                <span class="lh-sm text-first">
-                                                    <i class="fas fa-map-marker-alt"></i>
-                                                </span>
-                                                <span class="body-font fs-800 text-first">New York 5686 Edverano Center</span>
+                                            <a href="#">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <span>New York 5686 Edverano Center</span>
                                             </a>
-                                        </li>
-                                        <div class="col-sm-auto mt-3 mb-3">
+                                        </div>
+                                    </div>
+
+                                    <div class="widget widget-social">
+                                        <div class="widget-content">
                                             <ul class="social-icons d-flex my-1">
                                                 <li>
                                                     <a href="#" target="_blank" title="Facebook"> <i class="fab fa-facebook-f"></i> </a>
@@ -867,17 +845,18 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-sm-auto d-flex me-1">
-                                            <span class="copyright body-font my-1 fs-850 text-third">&copy; Copyright 2021</span>
-                                        </div>
-                                    </ul>
+                                    </div>
+                                    
+                                    <span class="copyright my-1 fs-6 ">&copy; Copyright 2021</span>
+
                                 </div>
-                                <div class="col-xl-4 col-12 pe-0">
-                                    <p class="footer-main-second heading-font fs-900 text-fourth lh-sm">
-                                        '' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.''
-                                    </p>
+
+                                <div class="col-xl-5">
+                                    <p class="heading-font text-primary lh-sm">'' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.''</p>
                                 </div>
+
                             </div>
+                            
                         </div>
 
                     </div>

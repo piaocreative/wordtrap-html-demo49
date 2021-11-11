@@ -76,7 +76,7 @@ html {
 body {
 	line-height: $line-height-base;
 	color: $body-color;
-	font-size: $font-size-base;
+	font-size: 1rem;
 	font-family: $body-font;
 }
 
@@ -92,7 +92,10 @@ h2,
 h3,
 h4,
 h5,
-// h6 { margin-bottom: 1.25rem; }
+h6 { 
+    font-family: $heading-font;
+    margin-bottom: 1.25rem;
+ }
 
 h1 {
 	font-weight: 800;
